@@ -2,6 +2,28 @@
 
 This file is design to controll the RRUnit using the UHD-Framework
 
+The project structure:
+```
+.
+├── build.sh
+├── CMakeLists.txt
+├── fisier_main
+├── fisier_main.cpp
+├── logs
+│   ├── cmake.log
+│   └── make.log
+├── output
+│   └── output.log
+├── prepare_environment.sh
+├── README.md
+└── stare_dispozitiv.h
+```
+Prepare the hoast machine environment in order to work with the UHD Framework
+
+```
+mihai@mihaix411ua:~/eMTC$ ./prepare_environment.sh
+
+```
 The following output it is the aspected one
 ```
 mihai@mihaix411ua:~/eMTC/build$ ./fisier_main 
