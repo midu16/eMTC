@@ -21,7 +21,13 @@ Device Address:
 In order to build the project please run the following command:
 
 ```
-mihai@mihaix411ua:~/eMTC/build$ ./fisier_main
+mihai@mihaix411ua:~/eMTC$  ./build.sh 
+###############################
+The compile process has started
+###############################
+The process has finished
+###############################
+
 ```
 
 After the compilation of the project the structure of the project directory it is the following:
