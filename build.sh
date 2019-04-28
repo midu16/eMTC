@@ -10,7 +10,7 @@ function build_soft {
 	mkdir build
 	cd $PWD/build
 	sudo cmake .. > ../logs/cmake.log 2>&1
-	sudo make > ../logs/make.log 2>1&
+	sudo make > ../logs/make.log 2>&1
 	echo "###############################"
 	echo "The process has finished"
 	echo "###############################"
