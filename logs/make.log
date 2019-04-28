@@ -1,0 +1,4 @@
+Scanning dependencies of target fisier_main
+[ 50%] Building CXX object CMakeFiles/fisier_main.dir/fisier_main.cpp.o
+[100%] Linking CXX executable fisier_main
+[100%] Built target fisier_main
