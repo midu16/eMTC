@@ -2,6 +2,17 @@
 
 This file is design to controll the RRUnit using the UHD-Framework
 
+In order to work with this software there are two steps that have to be completed:
+
+Step no 1. **Prepare the environment** of the hoasting machie ( either VirtualMachine or PhysicalMachine)
+    **Note** check the commands below.
+    
+Step no 2. **Build** the eMTC project.
+    **Note** check the commands below.
+    
+Step no 3. In order to **run the software**, go to the $eMTCPATH/build director and run the below command
+
+
 The project structure:
 ```
 .
@@ -22,22 +33,6 @@ Prepare the hoast machine environment in order to work with the UHD Framework
 
 ```
 mihai@mihaix411ua:~/eMTC$ ./prepare_environment.sh
-
-```
-The following output it is the aspected one
-```
-mihai@mihaix411ua:~/eMTC/build$ ./fisier_main 
-[INFO] [UHD] linux; GNU C++ version 5.4.0 20160609; Boost_105800; UHD_3.14.0.0-release
-[INFO] [B200] Loading firmware image: /usr/share/uhd/images/usrp_b200_fw.hex...
---------------------------------------------------
--- UHD Device 0
---------------------------------------------------
-Device Address:
-    serial: 315A8CF
-    name: B200mini
-    product: B200mini
-    type: b200
-
 
 ```
 In order to build the project please run the following command:
@@ -103,4 +98,21 @@ After the compilation of the project the structure of the project directory it i
 └── stare_dispozitiv.h
 
 7 directories, 38 files
+```
+
+The following output it is the aspected one
+```
+mihai@mihaix411ua:~/eMTC/build$ ./fisier_main 
+[INFO] [UHD] linux; GNU C++ version 5.4.0 20160609; Boost_105800; UHD_3.14.0.0-release
+[INFO] [B200] Loading firmware image: /usr/share/uhd/images/usrp_b200_fw.hex...
+--------------------------------------------------
+-- UHD Device 0
+--------------------------------------------------
+Device Address:
+    serial: 315A8CF
+    name: B200mini
+    product: B200mini
+    type: b200
+
+
 ```
