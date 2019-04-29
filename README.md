@@ -116,3 +116,6 @@ Device Address:
 
 
 ```
+
+Figure 1. The Final Architecture Target of the Project
+![Imgur](https://i.imgur.com/ul77zik.png)
