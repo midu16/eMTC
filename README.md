@@ -27,7 +27,10 @@ The project structure:
 │   └── output.log
 ├── prepare_environment.sh
 ├── README.md
+├── RXtoUDP.cpp
 └── stare_dispozitiv.h
+
+2 directories, 11 files
 ```
 Prepare the hoast machine environment in order to work with the UHD Framework
 
