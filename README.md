@@ -106,16 +106,47 @@ After the compilation of the project the structure of the project directory it i
 The following output it is the aspected one
 ```
 mihai@mihaix411ua:~/eMTC/build$ ./fisier_main 
-[INFO] [UHD] linux; GNU C++ version 5.4.0 20160609; Boost_105800; UHD_3.14.0.0-release
-[INFO] [B200] Loading firmware image: /usr/share/uhd/images/usrp_b200_fw.hex...
---------------------------------------------------
--- UHD Device 0
---------------------------------------------------
-Device Address:
-    serial: 315A8CF
-    name: B200mini
-    product: B200mini
-    type: b200
+[INFO] [UHD] linux; GNU C++ version 7.3.0; Boost_106501; UHD_3.14.0.0-release
+[WARNING
+] [UHD] Unable to set the thread priority. Performance may be negatively affected.
+Please see the general application notes in the manual for instructions.
+EnvironmentError: OSError: error in pthread_setschedparamCreating the usrp device with: ...
+
+[INFO] [B200] Detected Device: B200mini
+[INFO] [B200] Operating over USB 3.
+[INFO] [B200] Initialize CODEC control...
+[INFO] [B200] Initialize Radio control...
+[INFO] [B200] Performing register loopback test... 
+[INFO] [B200] Register loopback test passed
+[INFO] [B200] Setting master clock rate selection to 'automatic'.
+[INFO] [B200] Asking for clock rate 16.000000 MHz... 
+[INFO] [B200] Actually got clock rate 16.000000 MHz.
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 6.250000 Msps...
+[INFO] [B200] Asking for clock rate 50.000000 MHz... 
+[INFO] [B200] Actually got clock rate 50.000000 MHz.
+Actual RX Rate: 6.250000 Msps...
+
+Setting RX Freq: 0.000000 MHz...
+Actual RX Freq: 25.000000 MHz...
+
+Setting RX Gain: 0.000000 dB...
+Actual RX Gain: 0.000000 dB...
+
+Checking RX: LO: locked ...
+
+Done!
 
 
 ```
