@@ -65,6 +65,7 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
     // always select the subdevice first, the channel mapping affects the other settings
     if (vm.count("subdev")) {
         usrp->set_rx_subdev_spec(subdev);
+    
     }
 
     // set the rx sample rate
